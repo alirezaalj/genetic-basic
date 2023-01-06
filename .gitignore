@@ -1,0 +1,4 @@
+# Project exclude paths
+/genetic-basic-chart/target/
+/genetic-basic-core/target/
+/genetic-basic-share-domain/target/

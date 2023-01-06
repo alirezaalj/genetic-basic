@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>genetic-basic</artifactId>
+        <groupId>ir.alirezaalijani.genetic</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>genetic-basic-core</artifactId>
+    <packaging>jar</packaging>
+
+    <name>genetic-basic-core</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>ir.alirezaalijani.genetic</groupId>
+            <artifactId>genetic-basic-share-domain</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>

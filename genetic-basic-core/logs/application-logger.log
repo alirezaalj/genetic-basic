@@ -1,0 +1,285 @@
+2023-01-06 01:38:23,121 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:39:39,375 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:39:39,380 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=1
+2023-01-06 01:40:29,348 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:40:29,352 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=29
+2023-01-06 01:41:20,556 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:41:20,564 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=29
+2023-01-06 01:41:35,247 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:41:35,251 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=29
+2023-01-06 01:44:36,427 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:44:36,432 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=29
+2023-01-06 01:46:37,163 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 1
+2023-01-06 01:46:37,168 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=29
+2023-01-06 01:47:03,247 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 01:47:03,251 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 01:50:42,365 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 01:50:42,370 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:14:46,096 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:14:46,100 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:15:14,538 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:15:14,543 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:18:16,013 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:18:16,017 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:20:13,515 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:20:13,521 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:20:13,525 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=19198, fitness=2192.0}
+2023-01-06 02:20:13,536 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2192, to=8608, fitness=19198.0}
+2023-01-06 02:20:13,536 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19198, to=22584, fitness=8608.0}
+2023-01-06 02:20:13,537 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8608, to=21570, fitness=22584.0}
+2023-01-06 02:20:13,537 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=22584, to=3166, fitness=21570.0}
+2023-01-06 02:20:13,538 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21570, to=20932, fitness=3166.0}
+2023-01-06 02:20:13,539 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3166, to=5960, fitness=20932.0}
+2023-01-06 02:20:13,539 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=20932, to=2703, fitness=5960.0}
+2023-01-06 02:20:13,540 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5960, to=8369, fitness=2703.0}
+2023-01-06 02:20:13,541 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2703, to=9213, fitness=8369.0}
+2023-01-06 02:20:13,542 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8369, to=25985, fitness=9213.0}
+2023-01-06 02:20:13,542 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9213, to=2386, fitness=25985.0}
+2023-01-06 02:20:13,543 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25985, to=13049, fitness=2386.0}
+2023-01-06 02:20:13,543 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2386, to=7760, fitness=13049.0}
+2023-01-06 02:20:13,544 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13049, to=2966, fitness=7760.0}
+2023-01-06 02:20:13,545 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7760, to=3770, fitness=2966.0}
+2023-01-06 02:20:13,545 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2966, to=10475, fitness=3770.0}
+2023-01-06 02:20:13,546 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3770, to=22989, fitness=10475.0}
+2023-01-06 02:20:13,546 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10475, to=16171, fitness=22989.0}
+2023-01-06 02:20:13,547 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=22989, to=17159, fitness=16171.0}
+2023-01-06 02:20:13,547 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=16171, to=18441, fitness=17159.0}
+2023-01-06 02:20:13,548 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=17159, to=22585, fitness=18441.0}
+2023-01-06 02:20:13,549 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=18441, to=293363, fitness=22585.0}
+2023-01-06 02:52:57,087 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:52:57,091 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:52:57,097 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=900, fitness=847.0}
+2023-01-06 02:52:57,106 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=847, to=1371, fitness=900.0}
+2023-01-06 02:52:57,106 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=900, to=1920, fitness=1371.0}
+2023-01-06 02:52:57,107 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1371, to=3090, fitness=1920.0}
+2023-01-06 02:52:57,108 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1920, to=4983, fitness=3090.0}
+2023-01-06 02:52:57,108 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3090, to=7385, fitness=4983.0}
+2023-01-06 02:52:57,109 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4983, to=10246, fitness=7385.0}
+2023-01-06 02:52:57,109 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7385, to=11359, fitness=10246.0}
+2023-01-06 02:52:57,110 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10246, to=11937, fitness=11359.0}
+2023-01-06 02:52:57,111 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=11359, to=14146, fitness=11937.0}
+2023-01-06 02:52:57,111 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=11937, to=15181, fitness=14146.0}
+2023-01-06 02:52:57,112 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=14146, to=16548, fitness=15181.0}
+2023-01-06 02:52:57,112 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=15181, to=19076, fitness=16548.0}
+2023-01-06 02:52:57,113 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=16548, to=19301, fitness=19076.0}
+2023-01-06 02:52:57,113 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19076, to=20209, fitness=19301.0}
+2023-01-06 02:52:57,114 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19301, to=21511, fitness=20209.0}
+2023-01-06 02:52:57,115 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=20209, to=21687, fitness=21511.0}
+2023-01-06 02:52:57,115 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21511, to=21822, fitness=21687.0}
+2023-01-06 02:52:57,116 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21687, to=23405, fitness=21822.0}
+2023-01-06 02:52:57,116 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21822, to=23672, fitness=23405.0}
+2023-01-06 02:52:57,117 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=23405, to=28144, fitness=23672.0}
+2023-01-06 02:52:57,117 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=23672, to=29506, fitness=28144.0}
+2023-01-06 02:52:57,118 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=28144, to=329039, fitness=29506.0}
+2023-01-06 02:53:44,150 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:53:44,156 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:53:44,160 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=4240, fitness=4042.0}
+2023-01-06 02:53:44,168 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4042, to=5059, fitness=4240.0}
+2023-01-06 02:53:44,169 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4240, to=5379, fitness=5059.0}
+2023-01-06 02:53:44,169 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5059, to=5591, fitness=5379.0}
+2023-01-06 02:53:44,170 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5379, to=8201, fitness=5591.0}
+2023-01-06 02:53:44,171 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5591, to=9026, fitness=8201.0}
+2023-01-06 02:53:44,171 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8201, to=9282, fitness=9026.0}
+2023-01-06 02:53:44,171 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9026, to=9875, fitness=9282.0}
+2023-01-06 02:53:44,172 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9282, to=10134, fitness=9875.0}
+2023-01-06 02:53:44,172 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9875, to=12251, fitness=10134.0}
+2023-01-06 02:53:44,172 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10134, to=12853, fitness=12251.0}
+2023-01-06 02:53:44,172 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12251, to=13353, fitness=12853.0}
+2023-01-06 02:53:44,173 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12853, to=13439, fitness=13353.0}
+2023-01-06 02:53:44,173 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13353, to=13750, fitness=13439.0}
+2023-01-06 02:53:44,173 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13439, to=14172, fitness=13750.0}
+2023-01-06 02:53:44,174 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13750, to=14265, fitness=14172.0}
+2023-01-06 02:53:44,174 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=14172, to=15827, fitness=14265.0}
+2023-01-06 02:53:44,174 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=14265, to=16241, fitness=15827.0}
+2023-01-06 02:53:44,175 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=15827, to=19599, fitness=16241.0}
+2023-01-06 02:53:44,175 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=16241, to=24690, fitness=19599.0}
+2023-01-06 02:53:44,176 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19599, to=26753, fitness=24690.0}
+2023-01-06 02:53:44,176 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=24690, to=27783, fitness=26753.0}
+2023-01-06 02:53:44,176 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=26753, to=299441, fitness=27783.0}
+2023-01-06 02:57:20,604 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:57:20,608 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:57:20,613 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=5872, fitness=4237.0}
+2023-01-06 02:57:20,622 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4237, to=7606, fitness=5872.0}
+2023-01-06 02:57:20,623 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5872, to=7618, fitness=7606.0}
+2023-01-06 02:57:20,624 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7606, to=7799, fitness=7618.0}
+2023-01-06 02:57:20,624 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7618, to=8119, fitness=7799.0}
+2023-01-06 02:57:20,625 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7799, to=10888, fitness=8119.0}
+2023-01-06 02:57:20,625 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8119, to=12891, fitness=10888.0}
+2023-01-06 02:57:20,626 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10888, to=13891, fitness=12891.0}
+2023-01-06 02:57:20,626 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12891, to=14133, fitness=13891.0}
+2023-01-06 02:57:20,627 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13891, to=15390, fitness=14133.0}
+2023-01-06 02:57:20,627 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=14133, to=18309, fitness=15390.0}
+2023-01-06 02:57:20,628 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=15390, to=20433, fitness=18309.0}
+2023-01-06 02:57:20,628 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=18309, to=20567, fitness=20433.0}
+2023-01-06 02:57:20,629 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=20433, to=22549, fitness=20567.0}
+2023-01-06 02:57:20,630 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=20567, to=23486, fitness=22549.0}
+2023-01-06 02:57:20,630 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=22549, to=25191, fitness=23486.0}
+2023-01-06 02:57:20,631 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=23486, to=26109, fitness=25191.0}
+2023-01-06 02:57:20,631 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25191, to=28072, fitness=26109.0}
+2023-01-06 02:57:20,631 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=26109, to=28800, fitness=28072.0}
+2023-01-06 02:57:20,632 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=28072, to=29064, fitness=28800.0}
+2023-01-06 02:57:20,632 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=28800, to=29627, fitness=29064.0}
+2023-01-06 02:57:20,632 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=29064, to=29731, fitness=29627.0}
+2023-01-06 02:57:20,633 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=29627, to=414022, fitness=29731.0}
+2023-01-06 02:57:20,633 DEBUG i.a.genetic.core.PopulationSelection [main] select random on 10688
+2023-01-06 02:57:20,634 DEBUG i.a.genetic.core.PopulationSelection [main] select random on 10688
+2023-01-06 02:57:20,634 DEBUG i.a.genetic.core.PopulationSelection [main] select random on 327439
+2023-01-06 02:57:20,635 DEBUG i.a.genetic.core.PopulationSelection [main] select random on 233631
+2023-01-06 02:57:20,636 DEBUG i.a.genetic.core.PopulationSelection [main] select random on 314349
+2023-01-06 02:58:05,103 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:58:05,109 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:58:05,114 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=2929, fitness=1872.0}
+2023-01-06 02:58:05,125 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1872, to=3165, fitness=2929.0}
+2023-01-06 02:58:05,126 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2929, to=3821, fitness=3165.0}
+2023-01-06 02:58:05,126 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3165, to=5482, fitness=3821.0}
+2023-01-06 02:58:05,127 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3821, to=7514, fitness=5482.0}
+2023-01-06 02:58:05,127 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5482, to=8598, fitness=7514.0}
+2023-01-06 02:58:05,128 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7514, to=9113, fitness=8598.0}
+2023-01-06 02:58:05,128 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8598, to=9664, fitness=9113.0}
+2023-01-06 02:58:05,129 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9113, to=9865, fitness=9664.0}
+2023-01-06 02:58:05,130 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9664, to=10032, fitness=9865.0}
+2023-01-06 02:58:05,130 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9865, to=10898, fitness=10032.0}
+2023-01-06 02:58:05,131 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10032, to=11898, fitness=10898.0}
+2023-01-06 02:58:05,131 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10898, to=12887, fitness=11898.0}
+2023-01-06 02:58:05,132 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=11898, to=13473, fitness=12887.0}
+2023-01-06 02:58:05,133 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12887, to=13564, fitness=13473.0}
+2023-01-06 02:58:05,133 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13473, to=13995, fitness=13564.0}
+2023-01-06 02:58:05,134 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13564, to=14295, fitness=13995.0}
+2023-01-06 02:58:05,134 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13995, to=20545, fitness=14295.0}
+2023-01-06 02:58:05,134 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=14295, to=21954, fitness=20545.0}
+2023-01-06 02:58:05,135 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=20545, to=27252, fitness=21954.0}
+2023-01-06 02:58:05,136 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21954, to=28515, fitness=27252.0}
+2023-01-06 02:58:05,136 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=27252, to=29171, fitness=28515.0}
+2023-01-06 02:58:05,137 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=28515, to=291405, fitness=29171.0}
+2023-01-06 02:58:05,138 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 139986
+2023-01-06 02:58:05,138 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 104185
+2023-01-06 02:58:05,139 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 243821
+2023-01-06 02:58:05,139 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 57427
+2023-01-06 02:58:59,474 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:58:59,479 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:58:59,484 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=2600, fitness=2403.0}
+2023-01-06 02:58:59,494 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2403, to=3475, fitness=2600.0}
+2023-01-06 02:58:59,495 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2600, to=3549, fitness=3475.0}
+2023-01-06 02:58:59,496 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3475, to=3972, fitness=3549.0}
+2023-01-06 02:58:59,497 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3549, to=4643, fitness=3972.0}
+2023-01-06 02:58:59,497 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3972, to=5611, fitness=4643.0}
+2023-01-06 02:58:59,497 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4643, to=5800, fitness=5611.0}
+2023-01-06 02:58:59,497 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5611, to=6246, fitness=5800.0}
+2023-01-06 02:58:59,498 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5800, to=6378, fitness=6246.0}
+2023-01-06 02:58:59,499 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=6246, to=6840, fitness=6378.0}
+2023-01-06 02:58:59,499 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=6378, to=7401, fitness=6840.0}
+2023-01-06 02:58:59,500 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=6840, to=8593, fitness=7401.0}
+2023-01-06 02:58:59,500 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7401, to=11026, fitness=8593.0}
+2023-01-06 02:58:59,501 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8593, to=11089, fitness=11026.0}
+2023-01-06 02:58:59,502 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=11026, to=12405, fitness=11089.0}
+2023-01-06 02:58:59,502 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=11089, to=13256, fitness=12405.0}
+2023-01-06 02:58:59,502 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12405, to=18519, fitness=13256.0}
+2023-01-06 02:58:59,503 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13256, to=19993, fitness=18519.0}
+2023-01-06 02:58:59,503 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=18519, to=22501, fitness=19993.0}
+2023-01-06 02:58:59,503 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19993, to=24334, fitness=22501.0}
+2023-01-06 02:58:59,504 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=22501, to=24437, fitness=24334.0}
+2023-01-06 02:58:59,504 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=24334, to=29198, fitness=24437.0}
+2023-01-06 02:58:59,505 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=24437, to=256458, fitness=29198.0}
+2023-01-06 02:58:59,505 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 139405 kromozom :Kromozom{gens=[Gen{gen=-48.0}, Gen{gen=-99.0}, Gen{gen=1.0}]fitness=29198.0}
+2023-01-06 02:58:59,506 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 175368 kromozom :Kromozom{gens=[Gen{gen=-48.0}, Gen{gen=-99.0}, Gen{gen=1.0}]fitness=29198.0}
+2023-01-06 02:58:59,506 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 246570 kromozom :Kromozom{gens=[Gen{gen=-48.0}, Gen{gen=-99.0}, Gen{gen=1.0}]fitness=29198.0}
+2023-01-06 02:58:59,507 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 219277 kromozom :Kromozom{gens=[Gen{gen=-48.0}, Gen{gen=-99.0}, Gen{gen=1.0}]fitness=29198.0}
+2023-01-06 02:59:22,026 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 02:59:22,030 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 02:59:22,034 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=1212, fitness=1099.0}
+2023-01-06 02:59:22,043 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1099, to=1974, fitness=1212.0}
+2023-01-06 02:59:22,044 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1212, to=2107, fitness=1974.0}
+2023-01-06 02:59:22,049 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1974, to=2451, fitness=2107.0}
+2023-01-06 02:59:22,050 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2107, to=2933, fitness=2451.0}
+2023-01-06 02:59:22,050 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2451, to=2940, fitness=2933.0}
+2023-01-06 02:59:22,051 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2933, to=3640, fitness=2940.0}
+2023-01-06 02:59:22,051 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2940, to=5725, fitness=3640.0}
+2023-01-06 02:59:22,052 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3640, to=7082, fitness=5725.0}
+2023-01-06 02:59:22,052 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5725, to=7241, fitness=7082.0}
+2023-01-06 02:59:22,052 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7082, to=9783, fitness=7241.0}
+2023-01-06 02:59:22,053 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7241, to=11102, fitness=9783.0}
+2023-01-06 02:59:22,053 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9783, to=12118, fitness=11102.0}
+2023-01-06 02:59:22,053 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=11102, to=12300, fitness=12118.0}
+2023-01-06 02:59:22,054 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12118, to=16144, fitness=12300.0}
+2023-01-06 02:59:22,054 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12300, to=21562, fitness=16144.0}
+2023-01-06 02:59:22,054 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=16144, to=24207, fitness=21562.0}
+2023-01-06 02:59:22,055 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21562, to=24520, fitness=24207.0}
+2023-01-06 02:59:22,055 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=24207, to=25066, fitness=24520.0}
+2023-01-06 02:59:22,055 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=24520, to=25272, fitness=25066.0}
+2023-01-06 02:59:22,056 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25066, to=25622, fitness=25272.0}
+2023-01-06 02:59:22,056 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25272, to=26719, fitness=25622.0}
+2023-01-06 02:59:22,056 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25622, to=273695, fitness=26719.0}
+2023-01-06 02:59:22,057 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 232290 kromozom :26719.0
+2023-01-06 02:59:22,057 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 260582 kromozom :26719.0
+2023-01-06 02:59:22,058 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 45212 kromozom :26719.0
+2023-01-06 02:59:22,058 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel 34981 kromozom :26719.0
+2023-01-06 03:00:27,601 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 03:00:27,607 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 03:00:27,612 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=2953, fitness=2854.0}
+2023-01-06 03:00:27,621 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2854, to=2979, fitness=2953.0}
+2023-01-06 03:00:27,622 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2953, to=4197, fitness=2979.0}
+2023-01-06 03:00:27,624 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2979, to=4326, fitness=4197.0}
+2023-01-06 03:00:27,624 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4197, to=4897, fitness=4326.0}
+2023-01-06 03:00:27,624 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4326, to=5916, fitness=4897.0}
+2023-01-06 03:00:27,625 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4897, to=6602, fitness=5916.0}
+2023-01-06 03:00:27,625 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5916, to=8470, fitness=6602.0}
+2023-01-06 03:00:27,626 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=6602, to=10520, fitness=8470.0}
+2023-01-06 03:00:27,626 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=8470, to=12116, fitness=10520.0}
+2023-01-06 03:00:27,627 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=10520, to=13824, fitness=12116.0}
+2023-01-06 03:00:27,627 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=12116, to=16237, fitness=13824.0}
+2023-01-06 03:00:27,627 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13824, to=19778, fitness=16237.0}
+2023-01-06 03:00:27,628 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=16237, to=19823, fitness=19778.0}
+2023-01-06 03:00:27,628 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19778, to=20014, fitness=19823.0}
+2023-01-06 03:00:27,629 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=19823, to=21934, fitness=20014.0}
+2023-01-06 03:00:27,629 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=20014, to=23525, fitness=21934.0}
+2023-01-06 03:00:27,629 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21934, to=25772, fitness=23525.0}
+2023-01-06 03:00:27,630 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=23525, to=25788, fitness=25772.0}
+2023-01-06 03:00:27,630 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25772, to=26837, fitness=25788.0}
+2023-01-06 03:00:27,630 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25788, to=28099, fitness=26837.0}
+2023-01-06 03:00:27,631 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=26837, to=28355, fitness=28099.0}
+2023-01-06 03:00:27,631 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=28099, to=338451, fitness=28355.0}
+2023-01-06 03:00:27,632 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:55959 from: 28099 to :338451 kromozom :28355.0
+2023-01-06 03:00:27,632 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:182283 from: 28099 to :338451 kromozom :28355.0
+2023-01-06 03:00:27,633 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:102076 from: 28099 to :338451 kromozom :28355.0
+2023-01-06 03:00:27,633 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:136642 from: 28099 to :338451 kromozom :28355.0
+2023-01-06 03:02:13,904 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 6
+2023-01-06 03:02:13,909 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=24
+2023-01-06 03:02:13,917 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=0, to=1955, fitness=1608.0}
+2023-01-06 03:02:13,928 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1608, to=2139, fitness=1955.0}
+2023-01-06 03:02:13,928 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=1955, to=2581, fitness=2139.0}
+2023-01-06 03:02:13,929 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2139, to=2829, fitness=2581.0}
+2023-01-06 03:02:13,929 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2581, to=3702, fitness=2829.0}
+2023-01-06 03:02:13,929 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=2829, to=3887, fitness=3702.0}
+2023-01-06 03:02:13,930 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3702, to=4631, fitness=3887.0}
+2023-01-06 03:02:13,930 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=3887, to=4842, fitness=4631.0}
+2023-01-06 03:02:13,930 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4631, to=5827, fitness=4842.0}
+2023-01-06 03:02:13,931 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=4842, to=7182, fitness=5827.0}
+2023-01-06 03:02:13,931 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=5827, to=7509, fitness=7182.0}
+2023-01-06 03:02:13,932 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7182, to=9535, fitness=7509.0}
+2023-01-06 03:02:13,932 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=7509, to=13613, fitness=9535.0}
+2023-01-06 03:02:13,932 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=9535, to=16950, fitness=13613.0}
+2023-01-06 03:02:13,934 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=13613, to=21368, fitness=16950.0}
+2023-01-06 03:02:13,935 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=16950, to=22368, fitness=21368.0}
+2023-01-06 03:02:13,935 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=21368, to=22423, fitness=22368.0}
+2023-01-06 03:02:13,936 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=22368, to=23599, fitness=22423.0}
+2023-01-06 03:02:13,936 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=22423, to=24026, fitness=23599.0}
+2023-01-06 03:02:13,937 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=23599, to=25111, fitness=24026.0}
+2023-01-06 03:02:13,938 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=24026, to=26317, fitness=25111.0}
+2023-01-06 03:02:13,938 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=25111, to=28665, fitness=26317.0}
+2023-01-06 03:02:13,939 DEBUG i.a.genetic.core.PopulationSelection [main] convert kromozom to fitness range: FitnessRange{from=26317, to=28665, fitness=28665.0}
+2023-01-06 03:02:13,939 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:16264 from: 13613 to :21368 kromozom :16950.0
+2023-01-06 03:02:13,940 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:16264 from: 9535 to :16950 kromozom :13613.0
+2023-01-06 03:02:13,941 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:15690 from: 13613 to :21368 kromozom :16950.0
+2023-01-06 03:02:13,941 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:15690 from: 9535 to :16950 kromozom :13613.0
+2023-01-06 03:02:13,941 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:1886 from: 0 to :1955 kromozom :1608.0
+2023-01-06 03:02:13,942 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:1886 from: 1608 to :2139 kromozom :1955.0
+2023-01-06 03:02:13,942 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:13146 from: 7509 to :13613 kromozom :9535.0
+2023-01-06 03:02:13,943 DEBUG i.a.genetic.core.PopulationSelection [main] select random on wheel:13146 from: 9535 to :16950 kromozom :13613.0
+2023-01-06 15:50:57,229 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 4
+2023-01-06 15:50:57,232 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=16
+2023-01-06 15:51:50,949 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 3
+2023-01-06 15:51:50,953 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=16
+2023-01-06 15:52:17,449 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 4
+2023-01-06 15:52:17,453 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=17
+2023-01-06 15:52:32,236 DEBUG i.a.genetic.core.PopulationSelection [main] selecting elitism in population from 0 to 20
+2023-01-06 15:52:32,239 DEBUG i.a.genetic.core.PopulationSelection [main] new population after elitism selection is=80

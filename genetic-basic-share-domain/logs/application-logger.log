@@ -1,0 +1,10 @@
+2023-01-06 14:30:40,749 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 0 max available index 3 , left true
+2023-01-06 14:30:59,924 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 1 max available index 3 , left true
+2023-01-06 14:32:27,181 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 0 max available index 3 , left false
+2023-01-06 14:33:52,450 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 2 max available index 3 , left false
+2023-01-06 14:36:12,695 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 2 max available index 3 , left false
+2023-01-06 14:39:41,225 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 1 max available index 3 , left true
+2023-01-06 14:45:51,386 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 2 max available index 3 , left true
+2023-01-06 14:48:35,967 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 0 max available index 3 , left true
+2023-01-06 14:50:13,829 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 0 max available index 3 , left true
+2023-01-06 14:51:28,693 DEBUG i.a.g.share.domain.KromozomUtil [main] random index 1 max available index 3 , left true
