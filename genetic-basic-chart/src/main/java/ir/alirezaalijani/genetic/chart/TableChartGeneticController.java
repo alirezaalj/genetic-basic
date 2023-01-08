@@ -8,10 +8,10 @@ import java.util.ResourceBundle;
 
 import ir.alirezaalijani.genetic.core.GeneticNewPopulationGenerate;
 import ir.alirezaalijani.genetic.core.PopulationSelection;
-import ir.alirezaalijani.genetic.core.SelectionType;
 import ir.alirezaalijani.genetic.share.domain.KromozomUtil;
 import ir.alirezaalijani.genetic.share.domain.PopulationGenerate;
 import ir.alirezaalijani.genetic.share.domain.equation.Equation3RandomPopulationGenerate;
+import ir.alirezaalijani.genetic.share.domain.vezir.EightVezirRandomPopulationGenerate;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -83,39 +83,50 @@ public class TableChartGeneticController {
 
         List<GenerationView> generationViewList = new ArrayList<>();
 
-        PopulationGenerate populationGenerate = new Equation3RandomPopulationGenerate(-50,50);
-        var population = populationGenerate.populationBuilder(geneticRunConfig.getPopulationSize());
+        PopulationGenerate populationGenerate=null;
+        if (geneticRunConfig.getProblem()==0){
+           populationGenerate = new Equation3RandomPopulationGenerate((geneticRunConfig.getEqu3Range()*-1),geneticRunConfig.getEqu3Range());
+        }else if(geneticRunConfig.getProblem() ==1) {
+            populationGenerate = new EightVezirRandomPopulationGenerate(geneticRunConfig.getNumberOfVazir());
+        }
+        if (populationGenerate!=null)
+        {
+            var population = populationGenerate.populationBuilder(geneticRunConfig.getPopulationSize());
 
-        PopulationSelection populationSelection = new PopulationSelection(geneticRunConfig.getSelectionType(),
-                geneticRunConfig.getElitismPresent(),geneticRunConfig.isOrder(),geneticRunConfig.getTournamentSize(),geneticRunConfig.getRouletteing());
-        GeneticNewPopulationGenerate newPopulationGenerate=new GeneticNewPopulationGenerate(geneticRunConfig.getCrossoverPresent(),
-                geneticRunConfig.getMutationPresent(),populationSelection);
-        int generation=0;
-        while (true){
-            double best = KromozomUtil.bestFitness(population,true);
-            var gv= GenerationView.builder()
-                    .generation(generation)
-                    .averageOfGeneration(KromozomUtil.populationAvg(population))
-                    .bestOfGeneration(best)
-                    .build();
-            generationViewList.add(gv);
-            if (best<=acceptableFitness){
-                break;
+            PopulationSelection populationSelection = new PopulationSelection(geneticRunConfig.getSelectionType(),
+                    geneticRunConfig.getElitismPresent(),geneticRunConfig.isOrder(),geneticRunConfig.getTournamentSize(),geneticRunConfig.getRouletteing());
+            GeneticNewPopulationGenerate newPopulationGenerate=new GeneticNewPopulationGenerate(geneticRunConfig.getCrossoverPresent(),
+                    geneticRunConfig.getMutationPresent(),populationSelection);
+
+            int generation=0;
+            while (true){
+                double best = KromozomUtil.bestFitness(population,true);
+                var gv= GenerationView.builder()
+                        .generation(generation)
+                        .averageOfGeneration(KromozomUtil.populationAvg(population))
+                        .bestOfGeneration(best)
+                        .build();
+                generationViewList.add(gv);
+                System.out.println(generation);
+                if (best<=acceptableFitness){
+                    break;
+                }
+                if (generation==generationMax){
+                    break;
+                }
+                population = KromozomUtil.deepCopy(newPopulationGenerate.start(population));
+                generation++;
             }
-            if (generation==generationMax){
-                break;
-            }
-            population = KromozomUtil.deepCopy(newPopulationGenerate.start(population));
-            generation++;
+
+            generationViewObservableList.clear();
+            generationViewObservableList.addAll(generationViewList);
+            drawChart(generationViewList);
+
+            var bestKromozom=KromozomUtil.bestFitnessKromozom(population,geneticRunConfig.isOrder());
+            lblFitnessValue.setText(String.valueOf(bestKromozom.fitness()));
+            lblKromozomValue.setText(bestKromozom.toString());
         }
 
-        generationViewObservableList.clear();
-        generationViewObservableList.addAll(generationViewList);
-        drawChart(generationViewList);
-
-        var bestKromozom=KromozomUtil.bestFitnessKromozom(population,geneticRunConfig.isOrder());
-        lblFitnessValue.setText(String.valueOf(bestKromozom.fitness()));
-        lblKromozomValue.setText(bestKromozom.toString());
     }
 
     private void drawChart(List<GenerationView> generationViewList){

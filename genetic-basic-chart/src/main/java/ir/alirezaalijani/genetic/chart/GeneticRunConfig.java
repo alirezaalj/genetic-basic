@@ -26,4 +26,7 @@ public class GeneticRunConfig {
     private boolean order;
     private int tournamentSize;
     private int rouletteing;
+    private int problem;
+    private int numberOfVazir;
+    private int equ3Range;
 }

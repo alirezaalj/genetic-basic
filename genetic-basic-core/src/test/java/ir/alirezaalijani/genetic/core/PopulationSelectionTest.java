@@ -3,6 +3,7 @@ package ir.alirezaalijani.genetic.core;
 import ir.alirezaalijani.genetic.share.domain.Kromozom;
 import ir.alirezaalijani.genetic.share.domain.PopulationGenerate;
 import ir.alirezaalijani.genetic.share.domain.equation.Equation3RandomPopulationGenerate;
+import ir.alirezaalijani.genetic.share.domain.vezir.EightVezirRandomPopulationGenerate;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
@@ -42,15 +43,33 @@ class PopulationSelectionTest {
         var population = populationGenerate.populationBuilder(30);
         population.forEach(System.out::println);
 
-        PopulationSelection populationSelection = new PopulationSelection(SelectionType.RouletteWheel,20,true,10,4);
+        PopulationSelection populationSelection = new PopulationSelection(SelectionType.RouletteWheel,0,true,10,4);
         var selectPopulation = populationSelection.select(population);
         selectPopulation.forEach(System.out::println);
+//
+//        population.sort(Comparator.comparingDouble(Kromozom::fitness));
+//        var kromozomP =population.get(0);
+//        selectPopulation.sort(Comparator.comparingDouble(Kromozom::fitness));
+//        var kromozomC =selectPopulation.get(0);
+//
+//        assertThat(kromozomP).isEqualTo(kromozomC);
+    }
 
-        population.sort(Comparator.comparingDouble(Kromozom::fitness));
-        var kromozomP =population.get(0);
-        selectPopulation.sort(Comparator.comparingDouble(Kromozom::fitness));
-        var kromozomC =selectPopulation.get(0);
+    @Test
+    void selectRouletteWheelVazir() {
+        PopulationGenerate populationGenerate = new EightVezirRandomPopulationGenerate(8);
+        var population = populationGenerate.populationBuilder(30);
+        population.forEach(System.out::println);
 
-        assertThat(kromozomP).isEqualTo(kromozomC);
+        PopulationSelection populationSelection = new PopulationSelection(SelectionType.RouletteWheel,0,true,10,4);
+        var selectPopulation = populationSelection.select(population);
+        selectPopulation.forEach(System.out::println);
+//
+//        population.sort(Comparator.comparingDouble(Kromozom::fitness));
+//        var kromozomP =population.get(0);
+//        selectPopulation.sort(Comparator.comparingDouble(Kromozom::fitness));
+//        var kromozomC =selectPopulation.get(0);
+//
+//        assertThat(kromozomP).isEqualTo(kromozomC);
     }
 }

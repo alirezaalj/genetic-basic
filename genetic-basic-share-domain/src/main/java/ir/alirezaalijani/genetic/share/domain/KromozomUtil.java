@@ -93,6 +93,9 @@ public class KromozomUtil {
     public static List<Kromozom> randomCouple(List<Kromozom> kromozoms){
         int first = random.nextInt(kromozoms.size());
         int second = random.nextInt(kromozoms.size());
+        while (second==first){
+            second= random.nextInt(kromozoms.size());
+        }
 //        System.out.println("first and second is same:"+Objects.equals(kromozoms.get(first),kromozoms.get(second)));
         return Arrays.asList(kromozoms.get(first),kromozoms.get(second));
     }

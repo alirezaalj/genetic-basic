@@ -8,6 +8,7 @@ import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * @author Alireza Alijani : <a href="https://alirezaalijani.ir">https://alirezaalijani.ir</a>
@@ -75,7 +76,50 @@ public class PopulationSelection {
         return selected.subList(0,2);
     }
 
+
     private List<Kromozom> rouletteWheelSelect(List<Kromozom> population,int rouletteing,boolean order) {
+        Collections.shuffle(population);
+        double sumOfFitness = population
+                .stream()
+                .mapToDouble(Kromozom::fitness).sum();
+
+        var fitnessRouletteList =population.stream()
+                .map(kromozom -> new FitnessRoulette(sumOfFitness- kromozom.fitness(),kromozom))
+                        .sorted(Comparator.comparingDouble(FitnessRoulette::getFitness)).collect(Collectors.toList());
+
+        var rSum = fitnessRouletteList.stream()
+                .mapToDouble(FitnessRoulette::getFitness)
+                .sum();
+
+        var fitnessRanges = toFitnessRanges2(fitnessRouletteList);
+        Collections.shuffle(fitnessRanges);
+        Random random=new Random();
+        var selectedPopulation=new ArrayList<Kromozom>();
+
+        for (int i=0;i<rouletteing;i++){
+            var rand = random.nextInt((int) rSum);
+            for (var range: fitnessRanges){
+                if (range.isInRange(rand)){
+                    log.debug("select random on wheel:{} from: {} to :{} kromozom :{}",rand,range.from,range.to,range.kromozom.fitness());
+                    selectedPopulation.add(range.kromozom);
+                }
+            }
+        }
+        return selectedPopulation;
+    }
+    private List<FitnessRange> toFitnessRanges2(List<FitnessRoulette> population){
+        int last=0;
+        var fitnessRanges = new ArrayList<FitnessRange>();
+        for (var item:population){
+            int to= (int) (last + item.getFitness());
+            var fitnessRange =new FitnessRange(last,to,item.kromozom);
+            log.debug("create fitness range {}",fitnessRange);
+            fitnessRanges.add(fitnessRange);
+            last=to;
+        }
+        return fitnessRanges;
+    }
+    private List<Kromozom> rouletteWheelSelect2(List<Kromozom> population,int rouletteing,boolean order) {
         Collections.shuffle(population);
         double sumOfFitness = population
                 .stream()
@@ -142,5 +186,13 @@ public class PopulationSelection {
                     ", fitness=" + kromozom.fitness() +
                     '}';
         }
+    }
+
+    @Getter
+    @Setter
+    @AllArgsConstructor
+    private static class FitnessRoulette{
+        private double fitness;
+        private Kromozom kromozom;
     }
 }

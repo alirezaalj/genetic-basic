@@ -24,5 +24,7 @@
       <ComboBox fx:id="cbSelectionType" layoutX="26.0" layoutY="120.0" prefWidth="150.0" />
       <Button layoutX="634.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#startTableAndChart" text="Start With Generation Table And Chart" />
       <Button layoutX="434.0" layoutY="536.0" mnemonicParsing="false" text="Only Last Generation Info" />
+      <TextField fx:id="txtVazirNumber" layoutX="25.0" layoutY="348.0" prefHeight="31.0" prefWidth="152.0" promptText="Number Of Vazir" text="8" />
+      <TextField fx:id="txtEquationRange" layoutX="220.0" layoutY="348.0" promptText="Equation 3 Range" text="50" />
    </children>
 </AnchorPane>

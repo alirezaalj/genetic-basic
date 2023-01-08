@@ -63,6 +63,12 @@ public class AppController {
     private ComboBox<String> cbProblem;
 
     @FXML
+    private TextField txtVazirNumber;
+
+    @FXML
+    private TextField txtEquationRange;
+
+    @FXML
     void initialize() {
         assert txtMaxGeneration != null : "fx:id=\"txtMaxGeneration\" was not injected: check your FXML file 'app.fxml'.";
         assert txtAcceptableFitness != null : "fx:id=\"txtAcceptableFitness\" was not injected: check your FXML file 'app.fxml'.";
@@ -78,7 +84,7 @@ public class AppController {
         cbSelectionType.getItems().add(SelectionType.Tournament);
         cbSelectionType.getItems().add(SelectionType.RouletteWheel);
         cbSelectionType.getSelectionModel()
-                        .select(0);
+                .select(0);
         cbProblem.getItems().add("Equation3");
         cbProblem.getItems().add("8Vazir");
     }
@@ -105,8 +111,8 @@ public class AppController {
         }
     }
 
-    private GeneticRunConfig geneticRunConfig(){
-       return GeneticRunConfig.builder()
+    private GeneticRunConfig geneticRunConfig() {
+        return GeneticRunConfig.builder()
                 .generationMax(Integer.parseInt(txtMaxGeneration.getText().trim()))
                 .acceptableFitness(Double.parseDouble(txtAcceptableFitness.getText().trim()))
                 .populationSize(Integer.parseInt(txtPopulationSize.getText().trim()))
@@ -117,6 +123,9 @@ public class AppController {
                 .order(true)
                 .tournamentSize(Integer.parseInt(txtTournamentSize.getText().trim()))
                 .rouletteing(Integer.parseInt(txtRouletteing.getText().trim()))
+                .numberOfVazir(Integer.parseInt(txtVazirNumber.getText().trim()))
+                .equ3Range(Integer.parseInt(txtEquationRange.getText().trim()))
+                .problem(cbProblem.getSelectionModel().getSelectedIndex())
                 .build();
     }
 }
