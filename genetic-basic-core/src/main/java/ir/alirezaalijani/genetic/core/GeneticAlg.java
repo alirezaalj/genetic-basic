@@ -21,8 +21,8 @@ public class GeneticAlg {
         PopulationGenerate populationGenerate = new Equation3RandomPopulationGenerate(-50,50);
         var population = populationGenerate.populationBuilder(50);
 
-        PopulationSelection populationSelection = new PopulationSelection(SelectionType.RouletteWheel,5,true,20,0);
-        GeneticNewPopulationGenerate newPopulationGenerate=new GeneticNewPopulationGenerate(75,5,populationSelection);
+        PopulationSelection populationSelection = new PopulationSelection(SelectionType.RouletteWheel,5,true,20,7);
+        GeneticNewPopulationGenerate newPopulationGenerate=new GeneticNewPopulationGenerate(75,10,populationSelection);
         int generation=0;
         while (true){
             double best = KromozomUtil.bestFitness(population,true);

@@ -13,26 +13,15 @@ import java.util.Random;
  * @date 1/8/2023
  */
 public class EightVezirKromozom extends Kromozom {
-
     private Double fitness = null;
-
     public EightVezirKromozom(int genSize) {
         super(genSize);
     }
-
-    @Override
-    public double fitness() {
-        if (this.fitness == null || isTouched) {
-            this.fitness =fitness_function();
-        }
-        return fitness;
-    }
-
     @Override
     public void mutation() {
         Random random=new Random();
         int index = random.nextInt(genSize-1);
-        Gen gen=new EquationGen(random.nextInt(genSize));
+        Gen gen=new EightVezirGen(random.nextInt(genSize));
         replaceGen(gen,index);
     }
 
@@ -45,7 +34,13 @@ public class EightVezirKromozom extends Kromozom {
                 });
         return newKromozom;
     }
-
+    @Override
+    public double fitness() {
+        if (this.fitness == null || isTouched) {
+            this.fitness =fitness_function();
+        }
+        return fitness;
+    }
     private double fitness_function() {
         int threats = 0;
         // total possible threats = C(2, 8) = 28
